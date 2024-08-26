@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Agro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz-container">
+            <h1>Quiz Agro</h1>
+            <div id="question-container">
+                <h2 id="question"></h2>
+                <div id="answer-buttons" class="btn-grid">
+                    <button class="btn" onclick="selectAnswer(this)"></button>
+                    <button class="btn" onclick="selectAnswer(this)"></button>
+                    <button class="btn" onclick="selectAnswer(this)"></button>
+                    <button class="btn" onclick="selectAnswer(this)"></button>
+                </div>
+            </div>
+            <button id="next-btn" class="next-btn" onclick="nextQuestion()">Próxima</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
